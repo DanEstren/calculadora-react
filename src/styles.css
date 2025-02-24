@@ -1,0 +1,86 @@
+/* Mesmo CSS da versão anterior */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1e1e2f, #2a2a3b);
+}
+
+.calculator {
+  background: #2d2d3f;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  width: 320px;
+}
+
+.display {
+  background: #1e1e2f;
+  color: #ffffff;
+  font-size: 2.5em;
+  padding: 20px;
+  text-align: right;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  overflow-x: auto;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.btn {
+  background: #3d3d5c;
+  color: #ffffff;
+  border: none;
+  padding: 20px;
+  font-size: 1.2em;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #4e4e7e;
+  transform: translateY(-2px);
+}
+
+.operator {
+  background: #ff9500;
+}
+
+.operator:hover {
+  background: #ffaa33;
+}
+
+.clear {
+  background: #ff3333;
+  grid-row: span 2;
+}
+
+.clear:hover {
+  background: #ff5555;
+}
+
+.equals {
+  background: #00cc66;
+  grid-column: span 2;
+}
+
+.equals:hover {
+  background: #00e676;
+}
+
+.zero {
+  grid-column: span 2;
+}
