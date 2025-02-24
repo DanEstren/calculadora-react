@@ -1,2 +1,4 @@
 # calculadora-react
-Created with CodeSandbox
+Feita usando o Site do Sandbox
+
+a pedido do professor Cláudio Damasceno
